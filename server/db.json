@@ -1,0 +1,77 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "img": "https://c0.wallpaperflare.com/preview/787/926/324/accessories-accessory-background-bag.jpg",
+      "cats": [
+        "Life",
+        "Sport"
+      ],
+      "title": "A modern Technology",
+      "createdAt": 1544666010224,
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus asperiores, odio voluptates, nesciunt alias ipsa possimus ullam animi, quae vero ea rem delectus id dignissimos beatae obcaecati error ut! Perferendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus asperiores, odio voluptates, nesciunt alias ipsa possimus ullam animi, quae vero ea rem delectus id dignissimos beatae obcaecati error ut! Perferendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus asperiores, odio voluptates, nesciunt alias ipsa possimus ullam animi, quae vero ea rem delectus id dignissimos beatae obcaecati error ut! Perferendis.",
+      "author": "Salar Sadeghi",
+      "userId": "1"
+    },
+    {
+      "id": 2,
+      "img": "https://c0.wallpaperflare.com/preview/764/181/181/flowers-interior-room-home.jpg",
+      "cats": [
+        "Music",
+        "Sport"
+      ],
+      "title": "Can you grab me?",
+      "createdAt": 1544666020224,
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus asperiores, odio voluptates, nesciunt alias ipsa possimus ullam animi, quae vero ea rem delectus id dignissimos beatae obcaecati error ut! Perferendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus asperiores, odio voluptates, nesciunt alias ipsa possimus ullam animi, quae vero ea rem delectus id dignissimos beatae obcaecati error ut! Perferendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus asperiores, odio voluptates, nesciunt alias ipsa possimus ullam animi, quae vero ea rem delectus id dignissimos beatae obcaecati error ut! Perferendis.",
+      "author": "Alex Maddona",
+      "userId": "2"
+    },
+    {
+      "id": 3,
+      "img": "https://c1.wallpaperflare.com/preview/413/702/499/caucasian-girl-person-woman.jpg",
+      "cats": [
+        "Shopping",
+        "Sport"
+      ],
+      "title": "Give me a five",
+      "createdAt": 1544666030224,
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus asperiores, odio voluptates, nesciunt alias ipsa possimus ullam animi, quae vero ea rem delectus id dignissimos beatae obcaecati error ut! Perferendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus asperiores, odio voluptates, nesciunt alias ipsa possimus ullam animi, quae vero ea rem delectus id dignissimos beatae obcaecati error ut! Perferendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus asperiores, odio voluptates, nesciunt alias ipsa possimus ullam animi, quae vero ea rem delectus id dignissimos beatae obcaecati error ut! Perferendis.",
+      "author": "Walter Big Fanj",
+      "userId": "3"
+    },
+    {
+      "id": 4,
+      "img": "https://c1.wallpaperflare.com/preview/598/446/449/work-from-home-working-typing-laptop.jpg",
+      "cats": [
+        "Cinema",
+        "Tech"
+      ],
+      "title": "A wild animal ride me",
+      "createdAt": 1544666040224,
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus asperiores, odio voluptates, nesciunt alias ipsa possimus ullam animi, quae vero ea rem delectus id dignissimos beatae obcaecati error ut! Perferendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus asperiores, odio voluptates, nesciunt alias ipsa possimus ullam animi, quae vero ea rem delectus id dignissimos beatae obcaecati error ut! Perferendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus asperiores, odio voluptates, nesciunt alias ipsa possimus ullam animi, quae vero ea rem delectus id dignissimos beatae obcaecati error ut! Perferendis.",
+      "author": "Yaser Abd Alsalam",
+      "userId": "4"
+    },
+    {
+      "title": "test title update",
+      "desc": "A test story from Salar updated!!!",
+      "id": 5,
+      "img": "https://plus.unsplash.com/premium_photo-1681823130801-274e79c16e79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "cats": [
+        "Life",
+        "Style"
+      ],
+      "createdAt": 1694079034685,
+      "userId": 1,
+      "author": "Salar Sadeghi"
+    }
+  ],
+  "users": [
+    {
+      "email": "salar@gmail.com",
+      "password": "$2a$10$EDP.x4H3dD6nV8hAvhCB9.4Xwt.YFEJB6MERQJYRvUwdv9sjbpyCS",
+      "username": "Salar Sadeghi",
+      "id": 1
+    }
+  ]
+}

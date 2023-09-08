@@ -1,0 +1,53 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://c0.wallpaperflare.com/preview/658/679/623/artist-background-blog-business.jpg");
+  background-size: cover;
+  .loginTitle{
+    font-size: 50px;
+  }
+  .loginForm{
+    display: flex;
+    flex-direction: column;
+    label{
+        margin: 10px 0;
+    }
+    .loginInput{
+        padding: 10px;
+        border: 1px solid grey;
+        background-color: white;
+        outline: none;
+        border-radius: 10px;
+    }
+    .loginBtn{
+        background-color: lightcoral;
+        cursor: pointer;
+        margin-top: 20px;
+        border: none;
+        color: white;
+        outline: none;
+        border-radius: 10px;
+        padding: 10px;
+        &:disabled{
+          cursor: not-allowed;
+        }
+    }
+  }
+  .loginRegisterBtn{
+    background-color: teal;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,85 @@
+.singlePost {
+  flex: 9;
+  .singlePostWrapper {
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    .singlePostImg {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .singlePostTitle {
+      font-family: "Lora", serif;
+      margin: 10px;
+      text-align: center;
+      font-size: 28px;
+      .singlePostEdit {
+        float: right;
+        font-size: 16px;
+        .singlePostIcon {
+          margin-left: 10px;
+          cursor: pointer;
+          &:first-child {
+            color: teal;
+          }
+          &:last-child {
+            color: tomato;
+          }
+        }
+      }
+    }
+    .singlePostTitleInput{
+      font-family: "Lora", serif;
+      margin: 10px;
+      text-align: center;
+      font-size: 28px;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid grey;
+
+    }
+    .singlePostInfo {
+      display: flex;
+      justify-content: space-between;
+      font-family: "Varela Round", sans-serif;
+      color: #b39656;
+      font-size: 15px;
+      margin-bottom: 20px;
+      .singlePostDate {
+        margin-right: 10px;
+      }
+    }
+    .singlePostDescInput{
+      color: #666;
+      font-size: 18px;
+      line-height: 25px;
+      border: none;
+      outline: none;
+    }
+    .singlePostDesc {
+      color: #666;
+      font-size: 18px;
+      line-height: 25px;
+      &::first-letter{
+        margin-left: 20px;
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+    .updateBtn{
+      background-color: teal;
+      color: wheat;
+      border: none;
+      outline: none;
+      margin-top: 20px;
+      cursor: pointer;
+      width: 100px;
+      border-radius: 10px;
+      padding: 10px;
+      align-self: flex-end;
+    }
+  }
+}
